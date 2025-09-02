@@ -1,3 +1,5 @@
+/// @description Store constants and values related to the player
+
 xsp=0;
 ysp=0;
 max_speed = 2;
@@ -6,5 +8,6 @@ grav = .3;
 jump_speed = 4;
 double_jump = false;
 
-input = func_Singleton(sobj_input)
-game_state = func_Singleton(sobj_game_state)
+// Pull the relevant singletons holding game state
+input = func_Singleton(sobj_input);
+game_state = func_Singleton(sobj_game_state);

@@ -1,4 +1,4 @@
-a = false
-a_press = false
-left = false
-right = false
+a = false;
+a_press = false;
+left = false;
+right = false;
