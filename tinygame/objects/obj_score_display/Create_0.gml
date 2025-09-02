@@ -1,0 +1,1 @@
+game_state = func_singleton(sobj_game_state);

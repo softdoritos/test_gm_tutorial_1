@@ -44,10 +44,10 @@ if (place_meeting(x, y, obj_flag))
 {
 	game_state.total_levels_cleared = game_state.total_levels_cleared + 1;
 	show_debug_message(game_state.total_levels_cleared);
-	if (room != Room2) {
+	if (room != game_state.last_room) {
 		room_goto_next();
 	} else {
-		room_goto(Room1);
+		room_goto(room_1);
 	}
 }
 else if (place_meeting(x, y, obj_spike))

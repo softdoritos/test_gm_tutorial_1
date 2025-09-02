@@ -9,5 +9,5 @@ jump_speed = 4;
 double_jump = false;
 
 // Pull the relevant singletons holding game state
-input = func_Singleton(sobj_input);
-game_state = func_Singleton(sobj_game_state);
+input = func_singleton(sobj_input);
+game_state = func_singleton(sobj_game_state);

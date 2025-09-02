@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"func_Singleton",
+  "%Name":"func_singleton",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"func_Singleton",
+  "name":"func_singleton",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",
